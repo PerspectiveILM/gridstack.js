@@ -7,9 +7,10 @@
 */
 (function(factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery', 'lodash', 'gridstack', 'jquery-ui/ui/data', 'jquery-ui/ui/disable-selection', 'jquery-ui/ui/focusable',
-            'jquery-ui/ui/form', 'jquery-ui/ui/ie', 'jquery-ui/ui/keycode', 'jquery-ui/ui/labels', 'jquery-ui/ui/jquery-1-7',
-            'jquery-ui/ui/plugin', 'jquery-ui/ui/safe-active-element', 'jquery-ui/ui/safe-blur', 'jquery-ui/ui/scroll-parent',
+        define(['jquery', 'lodash', 'gridstack', 'jquery-ui/ui/data', 'jquery-ui/ui/disable-selection',
+            'jquery-ui/ui/focusable', 'jquery-ui/ui/form', 'jquery-ui/ui/ie', 'jquery-ui/ui/keycode',
+            'jquery-ui/ui/labels', 'jquery-ui/ui/jquery-1-7', 'jquery-ui/ui/plugin',
+            'jquery-ui/ui/safe-active-element', 'jquery-ui/ui/safe-blur', 'jquery-ui/ui/scroll-parent',
             'jquery-ui/ui/tabbable', 'jquery-ui/ui/unique-id', 'jquery-ui/ui/version', 'jquery-ui/ui/widget',
             'jquery-ui/ui/widgets/mouse', 'jquery-ui/ui/widgets/draggable', 'jquery-ui/ui/widgets/droppable',
             'jquery-ui/ui/widgets/resizable'], factory);
